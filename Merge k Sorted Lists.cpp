@@ -29,8 +29,6 @@ public:
             if (NULL != lists[i])
             {
                 min_heap.push (lists[i]);
-            
-                lists[i] = lists[i]->next;
             }
         }
         
